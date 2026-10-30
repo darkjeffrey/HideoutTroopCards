@@ -1,0 +1,59 @@
+<Brushes>
+
+  <!-- Sprite layers for the weapon icons on the troop selection cards. A DefaultLayerSpriteChangerBrushWidget picks
+       a layer by name (the card's icon Text) and draws its sprite. The sprites are the game's own equipment icons
+       (General\EquipmentIcons, used by the order of battle screen), which are always loaded. -->
+  <Brush Name="HideoutTroopCards.WeaponIconSprites">
+    <Layers>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_one_handed" Sprite="General\EquipmentIcons\equipment_type_one_handed"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_two_handed" Sprite="General\EquipmentIcons\equipment_type_two_handed"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_polearm" Sprite="General\EquipmentIcons\equipment_type_polearm"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_bow" Sprite="General\EquipmentIcons\equipment_type_bow"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_crossbow" Sprite="General\EquipmentIcons\equipment_type_crossbow"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_sling" Sprite="General\EquipmentIcons\equipment_type_sling"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_throwing" Sprite="General\EquipmentIcons\equipment_type_throwing"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_shield" Sprite="General\EquipmentIcons\equipment_type_shield"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_quiver" Sprite="General\EquipmentIcons\equipment_type_quiver"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_slingstones" Sprite="General\EquipmentIcons\equipment_type_slingstones"/>
+      <BrushLayer Name="General\EquipmentIcons\equipment_type_default" Sprite="General\EquipmentIcons\equipment_type_default"/>
+    </Layers>
+  </Brush>
+
+  <!-- Order arrow for the sort control. The party screen's own arrow (PartyScreen\sort_arrow) is in the
+       ui_partyscreen sprite sheet, which is only loaded while the party screen is open, so these use the
+       always-loaded scoreboard arrows instead. -->
+  <Brush Name="HideoutTroopCards.Sort.Ascending">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\SPScoreboard\arrow_up" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.3" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" SaturationFactor="0.8" ColorFactor="0.8" />
+      </Style>
+    </Styles>
+  </Brush>
+
+  <Brush Name="HideoutTroopCards.Sort.Descending">
+    <Layers>
+      <BrushLayer Name="Default" Sprite="SPGeneral\SPScoreboard\arrow_down" />
+    </Layers>
+    <Styles>
+      <Style Name="Default">
+        <BrushLayer Name="Default" />
+      </Style>
+      <Style Name="Hovered">
+        <BrushLayer Name="Default" ColorFactor="1.3" />
+      </Style>
+      <Style Name="Pressed">
+        <BrushLayer Name="Default" SaturationFactor="0.8" ColorFactor="0.8" />
+      </Style>
+    </Styles>
+  </Brush>
+
+</Brushes>
