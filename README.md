@@ -1,6 +1,6 @@
 # Hideout Troop Cards
 
-A Mount & Blade II: Bannerlord mod (v1.4.8) that improves the troop selection screen you get before attacking a hideout (and before a lord's hall fight). Each hero's card shows icons for the weapons they have equipped, the cards can be sorted with the same sort control as the party screen, and your companions can be picked automatically.
+A Mount & Blade II: Bannerlord mod (v1.5.7) that improves the troop selection screen you get before attacking a hideout (and before a lord's hall fight). Each hero's card shows icons for the weapons they have equipped, the cards can be sorted with the same sort control as the party screen, and your companions can be picked automatically.
 
 ## How it works
 
@@ -25,7 +25,7 @@ A Mount & Blade II: Bannerlord mod (v1.4.8) that improves the troop selection sc
 
 ## Requirements
 
-Bannerlord v1.4.8, Bannerlord.Harmony, ButterLib, UIExtenderEx and Mod Configuration Menu v5. Load it after them.
+Bannerlord v1.5.7, Bannerlord.Harmony, ButterLib, UIExtenderEx and Mod Configuration Menu v5. Load it after them.
 
 ## Code
 

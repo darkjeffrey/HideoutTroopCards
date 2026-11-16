@@ -11,3 +11,6 @@ release/
 *.user
 *.suo
 .vscode/
+
+# Local Steam Workshop upload settings
+workshop.ini
