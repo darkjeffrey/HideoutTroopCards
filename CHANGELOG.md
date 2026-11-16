@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+- Updated for Bannerlord v1.5.7.
+- The launcher no longer warns that the dependencies (Native, Harmony, ButterLib, UIExtenderEx, MCM) don't match: each one now states the version it needs.
+
 ## 1.0.0
 - Weapon icons on hero cards in the troop selection screen (hideout attacks and lord's hall fights): one icon per kind of weapon, hover for the item name.
 - Optional icons for thrown weapons, quivers and regular troops.
